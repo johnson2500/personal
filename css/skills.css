@@ -1,0 +1,16 @@
+table{
+	width: 100%;
+}
+
+thead{
+	width: inherit;
+	background: darkgrey;
+}
+
+th,td{
+	width: 50%;
+}
+
+.star-icon{
+	width: 1em;
+}

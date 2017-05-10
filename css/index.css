@@ -1,0 +1,54 @@
+@import url('http://fonts.googleapis.com/css?family=Cookie');
+
+
+
+
+#hero {
+	display: block;
+	height: 100vh;
+	margin:0;
+}
+
+#hero-content{
+	position: relative;
+	top: 50%;
+	font-size: 3.3em;
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	outline-color: black;
+	text-shadow: 4px 4px black;
+	z-index: 100;
+	text-align: center;
+	opacity: 1;
+}
+
+#test-location {
+	background: black;
+	color: white;
+}
+
+
+.tansition{
+	animation-name: test;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes test {
+	from {top: 100%;}
+	to {top: 0%;}
+}
+
+
+ul.top-bar{
+	background: white;
+	position: sticky;
+	top:0;
+	margin-bottom: -10px;
+}
+
+
+div.white{
+	background: white;
+}

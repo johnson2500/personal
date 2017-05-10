@@ -1,0 +1,27 @@
+#profilePic{
+	border-radius: 25%;
+}
+
+.test{
+	background: black
+}
+
+
+.bottom-border{
+	border-bottom: 1px solid darkgrey;
+}
+
+.top-border{
+	border-top: 1px solid darkgrey;
+}
+
+.left-border{
+	border-left: 1px solid darkgrey;
+}
+.right-border{
+	border-right: 1px solid darkgrey;
+}
+
+.left-pad{
+	padding-left: 10px;
+}
